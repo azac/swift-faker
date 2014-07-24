@@ -1,7 +1,10 @@
 swift-faker
 ===========
 
-Heavily inspired (as in: a lot of data copied from) by [Faker.js](https://github.com/Marak/Faker.js/)
+Fake user generator. Heavily inspired (as in: a lot of data copied from) by [Faker.js](https://github.com/Marak/Faker.js/)
+
+![](http://s1.postimg.org/w66eiw07z/Screen_Shot_2014_07_23_at_22_27_13.png)
+
 
 ```swift
 
