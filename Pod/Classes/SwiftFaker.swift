@@ -4,7 +4,7 @@ import Foundation
 
 extension Array {
     func randomItem() -> T {
-        public let  index = Int(arc4random_uniform(UInt32(self.count)))
+        let  index = Int(arc4random_uniform(UInt32(self.count)))
         return self[index]
     }
 }
@@ -73,15 +73,15 @@ public class SwiftFaker {
         self.state = states.randomItem()
         
  
-        public let  nums:[String] = ["0","1","2","3","4","5","6","7","8","9"]
+        let  nums:[String] = ["0","1","2","3","4","5","6","7","8","9"]
         
-        public var phoneNumber = String()
+        var phoneNumber = String()
         for char in "(###) ###-####" {
             
             phoneNumber += (char=="#") ? nums.randomItem() : String(char)
         }
 
-        public var zipCode = String()
+        var zipCode = String()
         for char in "#####" {
             
             zipCode += (char=="#") ? nums.randomItem() : String(char)
