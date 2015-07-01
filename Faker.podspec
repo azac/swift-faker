@@ -17,20 +17,15 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Faker"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/swift-faker"
   s.license          = 'MIT'
   s.author           = { "Hau Nguyen" => "hau.nguyentrinh@asnet.com.vn" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Faker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/swift-faker.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'Faker' => ['Pod/Assets/*.png']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
