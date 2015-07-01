@@ -18,7 +18,7 @@ Faker is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Faker"
+pod "Faker", :git => 'git@github.com:haunguyentrinh/swift-faker.git'
 ```
 
 ## Author
