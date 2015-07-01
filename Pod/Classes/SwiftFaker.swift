@@ -12,7 +12,7 @@ extension Array {
 
 public class SwiftFaker {
     
-    var firstName:String
+    public var firstName:String
     var lastName:String
     var title:String
     var nameSuffix:String
