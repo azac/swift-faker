@@ -10,7 +10,7 @@ extension Array {
 }
 
 
-class Faker {
+class SwiftFaker {
     
     var firstName:String
     var lastName:String
