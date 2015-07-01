@@ -1,5 +1,6 @@
 # Faker
 
+To use with CocoaPods
 [![CI Status](http://img.shields.io/travis/Hau Nguyen/Faker.svg?style=flat)](https://travis-ci.org/Hau Nguyen/Faker)
 [![Version](https://img.shields.io/cocoapods/v/Faker.svg?style=flat)](http://cocoapods.org/pods/Faker)
 [![License](https://img.shields.io/cocoapods/l/Faker.svg?style=flat)](http://cocoapods.org/pods/Faker)
