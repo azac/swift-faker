@@ -48,7 +48,7 @@ public class SwiftFaker {
     var fullDescription:String
 
     
-     init() {
+    public init() {
         
 
     
