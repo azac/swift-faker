@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "Faker"
+  s.name             = "SwiftFaker"
   s.version          = "0.1.0"
   s.summary          = "A short description of Faker."
   s.description      = <<-DESC
