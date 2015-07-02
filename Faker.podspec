@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/swift-faker"
   s.license          = 'MIT'
   s.author           = { "Hau Nguyen" => "hau.nguyentrinh@asnet.com.vn" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/swift-faker.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:<GITHUB_USERNAME>/swift-faker.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
