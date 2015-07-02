@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftFaker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Faker."
+  s.summary          = "Using Faker with Swift."
   s.description      = <<-DESC
-                       An optional longer description of Faker
+                       This is a pod allow using Faker in Swift to create your data fast and easy.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
