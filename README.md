@@ -1,44 +1,30 @@
-swift-faker
-===========
+# Faker
 
-Fake user generator. Heavily inspired (as in: a lot of data copied from) by [Faker.js](https://github.com/Marak/Faker.js/)
+To use with CocoaPods
+[![CI Status](http://img.shields.io/travis/Hau Nguyen/Faker.svg?style=flat)](https://travis-ci.org/Hau Nguyen/Faker)
+[![Version](https://img.shields.io/cocoapods/v/Faker.svg?style=flat)](http://cocoapods.org/pods/Faker)
+[![License](https://img.shields.io/cocoapods/l/Faker.svg?style=flat)](http://cocoapods.org/pods/Faker)
+[![Platform](https://img.shields.io/cocoapods/p/Faker.svg?style=flat)](http://cocoapods.org/pods/Faker)
 
-![](http://s1.postimg.org/w66eiw07z/Screen_Shot_2014_07_23_at_22_27_13.png)
+## Usage
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-```swift
+## Requirements
 
-var fakeGuy = Faker()
+## Installation
 
-print(fakeGuy.firstName)
-print(fakeGuy.lastName)
-print(fakeGuy.title)
-print(fakeGuy.nameSuffix)
-print(fakeGuy.fullName)
+Faker is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-print(fakeGuy.streetName)
-print(fakeGuy.streetNo)
-print(fakeGuy.city)
-print(fakeGuy.state)
-print(fakeGuy.zip)
-
-print(fakeGuy.address1)
-print(fakeGuy.address2)
-print(fakeGuy.fullAddress)
-
-print(fakeGuy.bornYear)
-print(fakeGuy.bornMonth)
-print(fakeGuy.bornDay)
-print(fakeGuy.fullDate)
-
-print(fakeGuy.phone)
-print(fakeGuy.email)
-print(fakeGuy.domain)
-print(fakeGuy.website)
-print(fakeGuy.company)
-
-print(fakeGuy.photo)
-
-print(fakeGuy.fullDescription)
-
+```ruby
+pod "Faker", :git => 'git@github.com:haunguyentrinh/swift-faker.git'
 ```
+
+## Author
+
+Hau Nguyen, hau.nguyentrinh@asnet.com.vn
+
+## License
+
+Faker is available under the MIT license. See the LICENSE file for more info.
