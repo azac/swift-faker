@@ -47,9 +47,9 @@ public class SwiftFaker {
     
     public var fullDescription:String
 
-    public var longitude: Float
+    public var longitude: Double
   
-    public var latitude: Float
+    public var latitude: Double
   
     public init() {
         
@@ -115,9 +115,9 @@ public class SwiftFaker {
  
         self.fullDescription = "\(self.fullName)\n\(self.fullAddress)\n\(self.email)\n\(self.phone)\n\(self.fullDate)\n\(self.website)"
         
-        self.longitude = ((Float(Float(arc4random()) / Float(UINT32_MAX)) * 360) - 180)
+        self.longitude = ((Double(Double(arc4random()) / Double(UINT32_MAX)) * 360) - 180)
       
-        self.latitude = ((Float(Float(arc4random()) / Float(UINT32_MAX)) * 180) - 90)
+        self.latitude = ((Double(Double(arc4random()) / Double(UINT32_MAX)) * 180) - 90)
     }
   
     public let  months:Array<String>  = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
